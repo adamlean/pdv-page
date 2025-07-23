@@ -87,9 +87,26 @@ p {
 
 .intro-image-wrapper {
   flex: 1 1 400px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro-image-wrapper img {
+  width: 100%;
+  max-width: 635px;
+}
+
+.intro-background {
   background: #10756f;
   padding: 20px;
   border-radius: 8px;
+  width: 500px;
+  height: auto; 
+  transform: translateX(-50px);
   display: flex;
   justify-content: center;
   align-items: center;
