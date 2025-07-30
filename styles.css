@@ -8,9 +8,6 @@ html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: rgba(255, 255, 255, 1);
-
-  font-family: 'Poppins';
-  font-style: normal;
 }
 
 *,
@@ -411,22 +408,24 @@ p {
 /* Clients */
 
 .clients-section {
-  background-color: #12766f;
-  padding: 60px 20px;
+  padding: 0 auto;
 }
 
 .clients-container {
+  background: #0B7572 url("./assets/img/hieroglyph.png");
+  background-size: cover;
+  background-repeat: repeat;
+  
   display: flex;
   flex-direction: row;
-  max-width: 1440px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1240px;
   margin: 0 auto;
-  gap: 10px;
+  gap: 50px;
   flex-wrap: wrap;
-}
 
-.clients-left {
-  flex: 1;
-  min-width: 477px;
+  padding: 85px 67px;
 }
 
 .clients-left h2 {
@@ -436,48 +435,9 @@ p {
   line-height: 1.5;
 }
 
-.clients-right {
-  padding: 20px;
-}
-
-.paper {
+.clients-right .paper {
   width: 100%;
-  max-width: 652px;
-}
-
-.company-info {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.clients-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-.clients-table thead {
-  background: #12766f;
-  color: #fff;
-}
-
-.clients-table th,
-.clients-table td {
-  padding: 12px 10px;
-  border: 1px solid #ddd;
-  vertical-align: top;
-}
-
-.clients-table img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.stars i {
-  color: #f5c518;
-  margin-right: 2px;
+  height: 100%;
 }
 
 /* Delivery */
