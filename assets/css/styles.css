@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 html, body {
   display: flex;
   flex-direction: column;
@@ -569,24 +571,6 @@ p {
   color: #777;
 }
 
-/* Responsive */
-@media (max-width: 991px) {
-  .trusted-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .trusted-item:nth-child(4),
-  .trusted-item:nth-child(8),
-  .trusted-item:nth-child(2n) {
-    border-right: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .trusted-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Employees */
 
 .employees {
@@ -706,6 +690,12 @@ p {
 .contacts-right td {
   padding: 8px 10px;
   vertical-align: top;
+}
+
+.line {
+  max-width: 674px;
+  color: #E9EAF2;
+  size: 1;
 }
 
 /* Contact Form */
