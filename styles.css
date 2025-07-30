@@ -32,6 +32,13 @@ section {
   padding: 0 20px;
 }
 
+h2 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
 h4 {
   font-family: Exo 2;
   font-weight: 400;
@@ -484,9 +491,7 @@ p {
 }
 
 .delivery-steps h2 {
-  font-size: 28px;
   margin-bottom: 40px;
-  font-weight: 600;
   color: #333;
 }
 
@@ -560,8 +565,6 @@ p {
 }
 
 .trusted-title {
-  font-size: 32px;
-  font-weight: bold;
   margin-bottom: 40px;
   color: #333;
 }
@@ -632,8 +635,6 @@ p {
 }
 
 .employees h2 {
-  font-size: 26px;
-  font-weight: 600;
   margin-bottom: 40px;
   color: #333;
 }
@@ -695,12 +696,9 @@ p {
 
 .contacts {
   padding: 60px 0;
-  background: #f9f9f9;
 }
 
 .contacts h2 {
-  font-size: 26px;
-  font-weight: 600;
   margin-bottom: 40px;
   color: #333;
 }
@@ -720,7 +718,8 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 100%;
   color: #333;
 }
 
@@ -731,7 +730,7 @@ p {
 
 .contacts-right {
   flex: 1 1 400px;
-  background: #fff;
+  background: #E9EAF2;
   padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
@@ -739,7 +738,8 @@ p {
 
 .contacts-right table {
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 125%;
   color: #444;
 }
 
@@ -839,7 +839,6 @@ p {
 }
 
 .your-data h2 {
-  font-size: 26px;
   margin-bottom: 30px;
 }
 
@@ -912,9 +911,7 @@ p {
 }
 
 .video-section h2 {
-  font-size: 32px;
   margin-bottom: 16px;
-  font-weight: 700;
   color: #222;
 }
 
